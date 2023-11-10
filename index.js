@@ -1,8 +1,15 @@
 
 
+
+
+
+
+
 const express = require('express');
 const CalcRoutes = require('./routes/CalcRoutes');
 const path = require('path');
+const swaggerUi = require('swagger-ui-express');
+swaggerDocument = require('./swagger.json');
 
 const app = express();
 const port = 3000;
