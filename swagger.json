@@ -6,16 +6,13 @@
     "description": "SciCalc",
     "license": {
       "name": "MirukuSCM",
-      "url": "IstayedUpWayToLongForThis.needsToSleep.com"
-    }
+      "url": "IstayedUpWayToLongForThis.needsToSleep.com"}
   },
   "host": "localhost:3000",
   "basePath": "/",
-  "tags": [
-    {
+  "tags": [{
       "name": "CalcProj",
-      "description": "IstayedUpWayToLongForThis"
-    }
+      "description": "IstayedUpWayToLongForThis"}
   ],
   "schemes": ["http"],
   "consumes": ["application/json"],
@@ -31,8 +28,7 @@
           {
             "name": "num1",
             "in": "query",
-            "description": "The First Number"
-          },
+            "description": "The First Number"},
           {
             "name": "num2",
             "in": "query",
@@ -41,8 +37,7 @@
         ],
         "responses": {
           "200": {
-            "description": "This service allows you to add two numbers together"
-          }
+            "description": "This service allows you to add two numbers together"}
         }
       }
     },
@@ -56,18 +51,15 @@
           {
             "name": "num1",
             "in": "query",
-            "description": "The First Number"
-          },
+            "description": "The First Number"},
           {
             "name": "num2",
             "in": "query",
-            "description": "The Second number"
-          }
+            "description": "The Second number"}
         ],
         "responses": {
           "200": {
-            "description": "This service allows you to subtract two numbers together"
-          }
+            "description": "This service allows you to subtract two numbers together"}
         }
       }
     },
@@ -91,8 +83,7 @@
         ],
         "responses": {
           "200": {
-            "description": "This service allows you to multiply two numbers together"
-          }
+            "description": "This service allows you to multiply two numbers together"}
         }
       }
     },
@@ -102,22 +93,18 @@
           "Division Service"
         ],
         "summary": "Divide 2 numbers",
-        "parameters": [
-          {
+        "parameters": [{
             "name": "num1",
             "in": "query",
-            "description": "The First Number"
-          },
+            "description": "The First Number"},
           {
             "name": "num2",
             "in": "query",
-            "description": "The Second number"
-          }
+            "description": "The Second number"}
         ],
         "responses": {
           "200": {
-            "description": "This service allows you to divide two numbers together"
-          }
+            "description": "This service allows you to divide two numbers together"}
         }
       }
     }
