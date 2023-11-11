@@ -21,17 +21,19 @@
     "/calculator/add": {
       "get": {
         "tags": [
-          "Addition Service"
+          "Addition"
         ],
         "summary": "Add 2 numbers",
         "parameters": [
           {
             "name": "num1",
             "in": "query",
+            "type": "number",
             "description": "The First Number"},
           {
             "name": "num2",
             "in": "query",
+            "type": "number",
             "description": "The Second number"
           }
         ],
@@ -44,17 +46,19 @@
     "/calculator/subtract": {
       "get": {
         "tags": [
-          "Subtraction Service"
+          "Subtraction"
         ],
         "summary": "Subtract 2 numbers",
         "parameters": [
           {
             "name": "num1",
             "in": "query",
+            "type": "number",
             "description": "The First Number"},
           {
             "name": "num2",
             "in": "query",
+            "type": "number",
             "description": "The Second number"}
         ],
         "responses": {
@@ -66,18 +70,20 @@
     "/calculator/multiply": {
       "get": {
         "tags": [
-          "Multiplication Service"
+          "Multiplication"
         ],
         "summary": "Multiply 2 numbers",
         "parameters": [
           {
             "name": "num1",
             "in": "query",
+            "type": "number",
             "description": "The First Number"
           },
           {
             "name": "num2",
             "in": "query",
+            "type": "number",
             "description": "The Second number"
           }
         ],
@@ -90,16 +96,18 @@
     "/calculator/divide": {
       "get": {
         "tags": [
-          "Division Service"
+          "Division"
         ],
         "summary": "Divide 2 numbers",
         "parameters": [{
             "name": "num1",
             "in": "query",
+          "type": "number",
             "description": "The First Number"},
           {
             "name": "num2",
             "in": "query",
+            "type": "number",
             "description": "The Second number"}
         ],
         "responses": {
